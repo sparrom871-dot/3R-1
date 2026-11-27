@@ -1,6 +1,6 @@
 import click
 
-from rrr_1.rrr_1 import hello_world, calculate_mean
+from rrr_1.rrr_1 import calculate_mean, hello_world
 
 
 @click.command()
@@ -16,4 +16,4 @@ def rrr_1_cli(message, values):
         # 保留原本的 Hello World 功能
         click.echo(hello_world(message))
     else:
-        click.echo("Please provide --message or --values.")
+        click.echo("Please provide --message or --values.")  # 重新安裝修改後的程式
