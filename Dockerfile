@@ -17,4 +17,4 @@ RUN pip install --no-cache-dir .
 
 # Configure the command to run when running the container
 # See https://docs.docker.com/engine/reference/builder/#entrypoint
-ENTRYPOINT [ "3R-1" ]
+ENTRYPOINT [ "rrr_1" ]
