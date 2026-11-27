@@ -1,3 +1,5 @@
+"""Command-line interface for the rrr_1 package."""
+
 import click
 
 from rrr_1.rrr_1 import calculate_mean, hello_world
