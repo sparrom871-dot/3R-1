@@ -10,3 +10,8 @@ def hello_world(message):
     logger.warning("This is WARN level log message")
     logger.error("This is ERROR level log message")
     return f"Hello world!: {message}"
+
+
+def calculate_mean(values):
+    """計算算術平均數。"""
+    return sum(values) / len(values)
